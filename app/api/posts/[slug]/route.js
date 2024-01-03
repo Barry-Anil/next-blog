@@ -1,5 +1,5 @@
-import prisma from "../../../utils/connect";
 import { NextResponse } from "next/server";
+import prisma from "../../../../utils/connect";
 
 // GET SINGLE POST
 export const GET = async (req, { params }) => {
